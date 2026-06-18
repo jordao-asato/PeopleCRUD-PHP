@@ -8,22 +8,22 @@
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 O **PeopleCRUD** é uma aplicação web que implementa as quatro operações fundamentais de persistência (Create, Read, Update, Delete) sobre um cadastro de pessoas, construída sem nenhum framework externo. O objetivo é demonstrar o padrão **MVC** (Model-View-Controller) aplicado em PHP puro, com separação clara de responsabilidades entre as camadas, acesso ao banco via **PDO** com Prepared Statements, roteamento manual por URL e autoload de classes com `spl_autoload_register`.
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- 📋 **Listagem** — exibe todos os registros cadastrados no banco
-- ➕ **Cadastro** — formulário para criação de nova pessoa (nome, CPF, data de nascimento)
-- ✏️ **Edição** — reaproveitamento do mesmo formulário para edição de um registro existente
-- 🗑️ **Exclusão** — remoção de um registro diretamente da listagem
+- **Listagem** — exibe todos os registros cadastrados no banco
+- **Cadastro** — formulário para criação de nova pessoa (nome, CPF, data de nascimento)
+- **Edição** — reaproveitamento do mesmo formulário para edição de um registro existente
+- **Exclusão** — remoção de um registro diretamente da listagem
 
 ---
 
-## 🏗️ Arquitetura MVC
+## Arquitetura MVC
 
 ```
 Requisição HTTP
@@ -55,7 +55,7 @@ Controller ──── processa a requisição
 
 ---
 
-## 🔌 Rotas
+## Rotas
 
 | Método | Rota | Ação |
 |---|---|---|
@@ -67,7 +67,7 @@ Controller ──── processa a requisição
 
 ---
 
-## 🗄️ Banco de Dados
+## Banco de Dados
 
 **Tabela: `pessoa`**
 
@@ -86,7 +86,7 @@ CREATE TABLE pessoa (
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 App/
@@ -119,7 +119,7 @@ Banco de dados/
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - **PHP 8+** — linguagem principal, sem frameworks externos
 - **PDO** com **Prepared Statements** — acesso seguro ao banco de dados
@@ -129,7 +129,7 @@ Banco de dados/
 
 ---
 
-## ⚙️ Como Executar
+## Como Executar
 
 ### Pré-requisitos
 
