@@ -165,7 +165,7 @@ Acesse `http://localhost:8000/pessoa` no navegador.
 
 Certifique-se de que `mod_rewrite` está habilitado e aponte o `DocumentRoot` para a pasta `App/`. O roteamento manual via `$_SERVER['REQUEST_URI']` já cuida do restante.
 
-## 👤 Autor
+## Autor
 
 **Jordão Asato**
 
